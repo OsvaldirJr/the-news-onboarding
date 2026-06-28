@@ -17,8 +17,8 @@ export default function ProgressBar({ current, total }: ProgressBarProps) {
         <span
           key={i}
           className={[
-            "h-2 w-2 rounded-full transition-colors duration-300",
-            i <= current ? "bg-accent" : "bg-black/15",
+            "rounded-full transition-all duration-300",
+            i === current ? "h-2 w-4 bg-accent" : "h-2 w-2 bg-black/15",
           ].join(" ")}
         />
       ))}

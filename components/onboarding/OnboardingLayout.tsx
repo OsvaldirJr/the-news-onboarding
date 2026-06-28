@@ -107,7 +107,7 @@ export default function OnboardingLayout({ onFinish }: OnboardingLayoutProps) {
           <button
             type="button"
             onClick={goNext}
-            className="w-full rounded-2xl bg-accent py-4 text-base font-bold text-ink transition-transform active:scale-[0.98]"
+            className="w-full rounded-full bg-accent py-4 text-base font-bold text-ink transition-transform active:scale-[0.98]"
           >
             {active.cta}
           </button>
