@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  /* Fundo cinza para destacar o "device" mobile centralizado no desktop */
+  background-color: #e5e7eb;
+  color: theme("colors.ink");
+  -webkit-font-smoothing: antialiased;
+}
