@@ -249,7 +249,7 @@ export default function StepContent({ step }: StepContentProps) {
               ? "font-extrabold text-[54px] leading-[1]"
               : isBridge
               ? "font-extrabold leading-tight text-5xl relative inline-block mt-12"
-              : (step.kind === "choice" || step.kind === "audio" || step.kind === "books" || step.kind === "share" || step.kind === "profile" || step.kind === "done")
+              : (step.kind === "audio" || step.kind === "books" || step.kind === "share" || step.kind === "profile" || step.kind === "done")
               ? "font-extrabold leading-[1.05] text-[48px]"
               : "font-extrabold leading-[1.05] text-[40px]",
           ].join(" ")}
