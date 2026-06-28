@@ -246,8 +246,9 @@ export function getWaveSegment(stepIndex: number): string {
       C ${width * 0.05} ${height * 0.75}, ${width * 0.08} ${height * 0.8}, ${width * 0.15} ${height * 0.65}
       S ${width * 0.2} ${height * 0.48}, ${width * 0.25} ${height * 0.48}
       S ${width * 0.45} ${height * 0.7}, ${endX} ${endY}
-      M ${endX} ${endY} L ${endX - 15} ${endY - 20}
-      M ${endX} ${endY} L ${endX + 15} ${endY - 20}
+      L ${endX - 25} ${endY - 15}
+      L ${endX} ${endY}
+      L ${endX + 15} ${endY - 25}
     `;
   }
   
